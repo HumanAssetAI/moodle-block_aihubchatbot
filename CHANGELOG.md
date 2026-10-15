@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.3.3 — build 2026101503
+
+- English-only Marketplace packaging; Greek translation preserved separately for AMOS.
+- Documentation updated to describe language-pack distribution.
+- Runtime PHP/JavaScript/CSS unchanged from build 2026101502, apart from version metadata.
+- Existing GitHub tag v1.3.3 and its assets remain unchanged. This build has not been published to GitHub or submitted to Marketplace.
+
+
 ## 1.3.3 — build 2026101502
 
 - Stable release metadata and updated installation, licensing and support documentation.

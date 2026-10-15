@@ -4,7 +4,7 @@ AIHub Chatbot adds a course assistant to Moodle using a signed iframe connection
 
 ## Release
 
-Version **1.3.3**, build **2026101502**, stable maturity.
+Version **1.3.3**, build **2026101503**, stable maturity.
 
 This edition requires Moodle 4.5 (2024100700) or later.
 
@@ -18,7 +18,7 @@ The minimum Moodle version is an installation requirement, not a claim that ever
 - Built-in icons or uploaded PNG/JPG images, resized and centre-cropped; theme or custom colours.
 - Block heading shown only in editing mode.
 - Configuration restricted to site administrators and users assigned a Manager role at system level. Teachers cannot configure the plugin.
-- English and Greek interface strings, editable through Moodle language customisation.
+- Translatable interface strings, editable through Moodle language customisation.
 
 ## Service requirements and pricing
 
@@ -38,7 +38,7 @@ The protected global settings page is linked from the block configuration. Confi
 
 ## Languages
 
-English (`en`) and Greek (`el`) are included. All plugin-owned interface wording uses Moodle language strings. See [LANGUAGE_GUIDE.md](LANGUAGE_GUIDE.md).
+This Marketplace package includes English (`en`) only. The Greek translation is preserved separately for contribution through AMOS after approval; it is not yet available through AMOS. All plugin-owned interface wording uses Moodle language strings. See [LANGUAGE_GUIDE.md](LANGUAGE_GUIDE.md).
 
 Leave Block title and Launcher label empty to use translated defaults. Existing custom text is preserved; clear saved English text if you want the translated default. The interface inside the remote AIHub iframe is controlled by AIHub separately.
 
@@ -62,4 +62,4 @@ Copyright 2026 Human Asset S.A. Distributed under the GNU General Public License
 
 ## Validation
 
-Local PHP, isolated authorization and browser fixture checks have been performed during development, including Greek interface labels. Live Moodle installation/upgrade, language switching, theme compatibility, signed AIHub integration and backup/restore require deployment testing. See [CHANGELOG.md](CHANGELOG.md).
+Local PHP, isolated authorization and browser fixture checks have been performed during development, including Greek interface labels. The publisher reports successful testing on Moodle 5; the exact Moodle/PHP/theme versions have not yet been recorded. This English-only packaging revision still needs an installation/upgrade smoke test. See [CHANGELOG.md](CHANGELOG.md).
